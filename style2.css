@@ -1,0 +1,71 @@
+.botton a{
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      padding: 3px;
+      width: 50px;
+      color: #333;
+      font-size: 18px;
+      font-weight: 700;
+      background-color: #cccccc;
+      transition: 0.3s;
+}
+.box {
+    margin: 0 auto;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 800px;
+    border: 1px solid #ccc;
+}
+
+.info {
+    text-align: left;
+    margin-right: 20px;
+    width: 450px;
+    
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 65px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.id {
+    line-height: 0;
+    font-size: 25px
+}
+.id input{
+    padding-top: 6px;
+}
+
+textarea{
+    width: 404px;
+    height: 75px;
+}
+
+.submit{
+    position: relative;
+    left: 360px;
+}
+
+button{
+    padding: 3px 6px;
+    background: #555;
+    color: #fff;
+}
+
+.text{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 800px;
+    font-size: 18px;
+}
+.text .num {
+    font-weight: bold;
+}

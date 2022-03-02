@@ -1,0 +1,76 @@
+body {
+    margin-top: 30px;
+}
+
+input {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.headline {
+    margin-top: 10px;
+    position: relative;
+    right: 79px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+button{
+    padding: 8px 8px;
+    background: #555;
+    color: #fff;
+}
+
+.form_1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    padding-bottom: 5px
+    
+}
+
+table {
+    width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: #D3DEF1;
+    padding: 6px;
+    border-bottom: 4px solid #ccc;
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+.h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+.h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+table tr{
+    border-bottom: solid 1px #c0c0c0;
+}
+
+table tr:hover{
+  background-color: #d4f0fd;
+}
+
+.tr1:hover{
+  background-color: #FFF;
+}
+
+td {
+    padding: 4px;
+}
+
