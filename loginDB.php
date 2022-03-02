@@ -16,9 +16,9 @@
         //両方入力されているとき
         }else{
             //SQL接続
-            $dsn = "mysql:dbname=tb230923db;host=localhost";
-            $user = "tb-230923";
-            $password = "v8kg2yvYpT";
+            $dsn = "データベース";
+            $user = "ユーザー名";
+            $password = "パスワード";
             $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
             
             //DBとの照合
