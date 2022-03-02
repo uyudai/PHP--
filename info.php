@@ -1,15 +1,17 @@
 
 <?php 
+    //検索した生徒の情報を取得
     session_start();
     $name = $_SESSION["name"];
     $school = $_GET["search"];
     
     //SQL接続
-    $dsn = "mysql:dbname=tb230923db;host=localhost";
-    $user = "tb-230923";
-    $password = "v8kg2yvYpT";
+    $dsn = "データベース";
+    $user = "ユーザー名";
+    $password = "パスワード";
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
+    //取得した情報をDBで検索をかける
     $sql = "SELECT * FROM studentdata WHERE name=:name AND school=:school";
     $stmt = $pdo-> prepare($sql);
     $stmt->bindParam(':name', $name, PDO::PARAM_STR);
@@ -114,11 +116,13 @@
         
     }
     
+    //コメントが入力されたとき
     if(!empty($_POST["comment"]) && isset($_POST["submit"])){
         $comment = $_POST["comment"];
         $time = date("Y/m/d H:i");
         $number = $_POST["number"];
         
+        //新規投稿か編集の判定
         if($number == ""){
             //書き込み
             $sql = "INSERT INTO commentdata (name, school, comment, time) VALUES (:name, :school, :comment, :time)";
