@@ -3,12 +3,14 @@
  検索と情報共有ができるサイト
  
 # DEMO
+ログインページ<br>
+![image](https://user-images.githubusercontent.com/78655081/156424125-c3a9b1fd-b6e4-402f-b9ad-c953a6d0e60a.png)<br>
 
-  　
-![image](https://user-images.githubusercontent.com/78655081/156419090-450f396b-b6ae-4ba7-855f-ee84c6c2d21e.png "検索画面")  
+ 検索画面<br>
+![image](https://user-images.githubusercontent.com/78655081/156419090-450f396b-b6ae-4ba7-855f-ee84c6c2d21e.png "検索画面")  <br>
 
-*書き込む画面*  
-![image](https://user-images.githubusercontent.com/78655081/156419483-7655aac4-9131-47a5-8f21-b97e9082864e.png)  
+書き込む画面<br>
+![image](https://user-images.githubusercontent.com/78655081/156419483-7655aac4-9131-47a5-8f21-b97e9082864e.png)  <br>
 
  
 # Features
@@ -23,7 +25,7 @@
 # Note
 login.php（ログインページ）<br>
 search.php（検索ページ)<br>
-info.php(検索結果）<br>
+info.php(書き込む画面）<br>
 
 データベース詳細  　<br>
  -userdata<br>
