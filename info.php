@@ -10,6 +10,14 @@
     $user = "ユーザー名";
     $password = "パスワード";
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
+
+    //取得した情報をDBで検索をかける
+    $sql = "SELECT * FROM studentdata WHERE name=:name AND school=:school";
+    $stmt = $pdo-> prepare($sql);
+    $stmt->bindParam(':name', $name, PDO::PARAM_STR);
+    $stmt->bindParam(':school', $school, PDO::PARAM_STR);
+    $stmt->execute();
+    $result = $stmt -> fetch();
     
 
     $edit_text = "";
